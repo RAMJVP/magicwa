@@ -83,4 +83,21 @@ public class MagicwController {
 		
 	}
 	
+	static List<Image> is=List.of(new Image(1,"https://i.imgur.com/EBsA49O.png"),new Image(1,"https://i.imgur.com/uHeZllR.png"),new Image(1,"https://i.imgur.com/J2DtqRK.jpeg"),
+			new Image(1,"https://i.imgur.com/axtkx3m.jpeg"),new Image(1,"https://i.imgur.com/ctgMlwi.jpeg")
+			,new Image(1,"https://i.imgur.com/NX30XIU.jpeg"),new Image(1,"https://i.imgur.com/KSViuYu.png"),new Image(1,"https://i.imgur.com/5tjx83F.png"),new Image(1,"https://i.imgur.com/kof6obs.png"),new Image(1,"https://i.imgur.com/VwoUutl.jpeg"),
+			new Image(1,"https://i.imgur.com/0NSWBzz.png"),new Image(1,"https://i.imgur.com/G0htyyE.jpeg")
+			);
+	
+	@GetMapping("/imgs")
+	public List<Image> imgs(){
+		return is;
+		
+		
+	}
+	
+	
+	
+	
+	
 }
