@@ -6,7 +6,12 @@ import java.util.List;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+
+import org.springframework.web.bind.annotation.CrossOrigin;
+
+
 @RestController
+@CrossOrigin({"http://localhost:5173","https://670922b4700eca55788415ae--admirable-smakager-729141.netlify.app/"})
 public class MagicwController {
 
 	
