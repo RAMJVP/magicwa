@@ -11,7 +11,9 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 
 @RestController
-@CrossOrigin({"http://localhost:5173","https://main--admirable-smakager-729141.netlify.app/"})
+@CrossOrigin({"http://localhost:5173","https://admirable-smakager-729141.netlify.app/"})
+
+//
 
 
 public class MagicwController {
