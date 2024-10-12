@@ -68,14 +68,40 @@ public class MagicwController {
 					+ "\r\n"
 					+ "लोभ को इच्छा और दम्भ का बल है, काम को केवल स्त्री का बल है और क्रोध को कठोर वचनों का बल है, श्रेष्ठ मुनि विचार कर ऐसा कहते हैं॥\r\n"
 					+ "\r\n"
-					+ "Greed is the power of desire and pride, lust is the power of woman, and anger is the force of harsh words, the best sages think and say so."), new Blog(0, LocalDate.now(), 4, "", "1"), new Blog(0, LocalDate.now(), 4, "", "1"),
+					+ "Greed is the power of desire and pride, lust is the power of woman, and anger is the force of harsh words, the best sages think and say so."), 
+			new Blog(0, LocalDate.now(), 4, "", "प्रिया बंधु गति लखि रघुनंदनु। धीर कृपाल भगत उर चंदनु॥\n"
+					+ "\n"
+					+ "लगे कहन कछु कथा पुनीता। सुनि सुखु लहहिं लखनु अरु सीता॥\n"
+					+ "\n"
+					+ "तब श्री रामचन्द्रजी, जो धीर और कृपालु हैं, भक्तों के हृदयों को शीतल करने वाले चंदन रूप में, अपनी प्यारी पत्नी सीता और भाई लक्ष्मण की दशा देखकर, उन्हें पवित्र कथाएँ सुनाने लगते हैं, जिनसे लक्ष्मण और सीता को सुख मिलता है॥\n"
+					+ "\n"
+					+ "Then Shri Ramchandraji, who is patient and kind, in the form of sandalwood that cools the hearts of the devotees, seeing the condition of his beloved wife Sita and brother Lakshman, starts narrating sacred stories to them, which give happiness to Lakshman and Sita."), 
+			new Blog(0, LocalDate.now(), 4, "", "अत्रि आदि मुनिबर बहु बसहीं। करहिं जोग जप तप तन कसहीं॥\n"
+					+ "\n"
+					+ "चलहु सफल श्रम सब कर करहू। राम देहु गौरव गिरिबरहू॥\n"
+					+ "\n"
+					+ "अत्रि आदि बहुत से श्रेष्ठ मुनि वहाँ निवास करते हैं, जो योग, जप और तप करते हुए शरीर को कसते हैं।\n"
+					+ "\n"
+					+ "(हे राम) आप कृपा करें और उनकी सभी तपस्या सफल हो जाए। उन्हें गौरव और संतोष प्रदान करें।\n"
+					+ "\n"
+					+ "Many great sages like Atri etc. reside there, who tighten the body by doing yoga, chanting and penance.\n"
+					+ "\n"
+					+ "(O Rama) may you be kind and may all his penances be successful. Give them pride and contentment."),
 			new Blog(0, LocalDate.now(), 4, "", "जिअन मरन फलु दसरथ पावा। अंड अनेक अमल जसु छावा॥\n"
 					+ "\n"
 					+ "जिअत राम बिधु बदनु निहारा। राम बिरह करि मरनु सँवारा॥\n"
 					+ "\n"
 					+ "जीने और मरने का फल तो दशरथजी ने ही पाया, जिनका निर्मल यश अनेकों ब्रह्मांडों में छा गया। जीते जी तो श्री रामचन्द्रजी के चन्द्रमा के समान मुख को देखा और श्री राम के विरह को निमित्त बनाकर अपना मरण सुधार लिया॥\n"
 					+ "\n"
-					+ "The fruits of living and dying were achieved only by Dashrathji, whose pure fame spread across many universes. While alive, he saw the moon-like face of Shri Ramchandraji and corrected his death by making separation from Shri Ram the reason."), new Blog(0, LocalDate.now(), 4, "", "1"));
+					+ "The fruits of living and dying were achieved only by Dashrathji, whose pure fame spread across many universes. While alive, he saw the moon-like face of Shri Ramchandraji and corrected his death by making separation from Shri Ram the reason."),
+			
+			new Blog(0, LocalDate.now(), 4, "", "अवगुन तजि सब के गुन गहहीं। बिप्र धेनु हित संकट सहहीं॥\n"
+					+ "\n"
+					+ "नीति निपुन जिन्ह कइ जग लीका। घर तुम्हार तिन्ह कर मनु नीका॥\n"
+					+ "\n"
+					+ "जो अवगुणों को छोड़कर सबके गुणों को ग्रहण करते हैं, ब्राह्मण और गो के लिए संकट सहते हैं, नीति-निपुणता में जिनकी जगत में मर्यादा है, उनका सुंदर मन आपका घर है॥\n"
+					+ "\n"
+					+ "The beautiful mind of the one who abandons the demerits and embraces everyone's virtues, endures hardships for the sake of Brahmins and cows, who has dignity in the world in his policy-expertise, is your home."));
 	
 	
 	@GetMapping("/blogs")
