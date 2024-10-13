@@ -124,13 +124,13 @@ public class MagicwController {
 		
 	}
 	
-	static List<Image> vis=List.of(new Image(1,"https://youtube.com/shorts/InyKviWuQ0A?si=ykpdKrhfFHNI7OKC")
-			/*,new Image(12,"https://youtube.com/shorts/6u0B7PvroSk?si=wA-PBTXbpaX1M2Al"),
-			new Image(2,"https://youtube.com/shorts/HCAzc6sKRNY?si=Ad0XD8rbYY4ruXvE"),
-			new Image(3,"https://youtube.com/shorts/TKY7hicbkdc?si=e_ZYXj9LVn-Ie3Fp"),
-			new Image(4,"https://youtube.com/shorts/S4liGRAgtKY?si=puR30A4k3TFRubRx")
-			,new Image(5,"https://youtube.com/shorts/-xL433fW3dM?si=8290a98VvwxNLE6r"),
-			new Image(6,"https://youtube.com/shorts/mIAwK1fDHK4?si=VleHg6Mcg1evPDg6"),
+	static List<Vid> vis=List.of(new Vid(1,"https://youtube.com/shorts/InyKviWuQ0A?si=ykpdKrhfFHNI7OKC","https://i.imgur.com/yv00NEc.png")
+			,new Vid(12,"https://youtube.com/shorts/6u0B7PvroSk?si=wA-PBTXbpaX1M2Al","https://i.imgur.com/NWnuh0m.png"),
+			new Vid(2,"https://youtube.com/shorts/HCAzc6sKRNY?si=Ad0XD8rbYY4ruXvE","https://i.imgur.com/v7n0pWg.png"),
+			new Vid(3,"https://youtube.com/shorts/TKY7hicbkdc?si=e_ZYXj9LVn-Ie3Fp","https://i.imgur.com/UVknR2C.png?1"),
+			new Vid(4,"https://youtube.com/shorts/S4liGRAgtKY?si=puR30A4k3TFRubRx","https://i.imgur.com/L4IGPwe.png")
+			,new Vid(5,"https://youtube.com/shorts/-xL433fW3dM?si=8290a98VvwxNLE6r","https://i.imgur.com/t69UX2y.png")
+			/*,new Image(6,"https://youtube.com/shorts/mIAwK1fDHK4?si=VleHg6Mcg1evPDg6"),
 			new Image(7,"https://youtube.com/shorts/5wxQ3jw5p7c?si=kqsixgG-paYXW7xz"),
 			new Image(9,"https://youtube.com/shorts/6Ki327fpe-0?si=u0AZWW8cTiVta6z8"),
 			new Image(8,"https://youtube.com/shorts/7z3PKukeOqA?si=yd_cLhplZvd254NR"),
@@ -139,7 +139,7 @@ public class MagicwController {
 			);
 	
 	@GetMapping("/videos")
-	public List<Image> videos(){
+	public List<Vid> videos(){
 		return vis;
 		
 		
