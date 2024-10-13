@@ -124,7 +124,22 @@ public class MagicwController {
 		
 	}
 	
+	static List<Image> vis=List.of(new Image(1,"https://youtube.com/shorts/InyKviWuQ0A?si=ykpdKrhfFHNI7OKC"),
+			new Image(1,"https://youtube.com/shorts/6u0B7PvroSk?si=wA-PBTXbpaX1M2Al"),
+			new Image(1,"https://youtube.com/shorts/HCAzc6sKRNY?si=Ad0XD8rbYY4ruXvE"),
+			new Image(1,"https://youtube.com/shorts/TKY7hicbkdc?si=e_ZYXj9LVn-Ie3Fp"),new Image(1,"https://youtube.com/shorts/S4liGRAgtKY?si=puR30A4k3TFRubRx")
+			,new Image(1,"https://youtube.com/shorts/-xL433fW3dM?si=8290a98VvwxNLE6r"),new Image(1,"https://youtube.com/shorts/mIAwK1fDHK4?si=VleHg6Mcg1evPDg6"),
+			new Image(1,"https://youtube.com/shorts/5wxQ3jw5p7c?si=kqsixgG-paYXW7xz"),new Image(1,"https://youtube.com/shorts/6Ki327fpe-0?si=u0AZWW8cTiVta6z8"),
+			new Image(1,"https://youtube.com/shorts/7z3PKukeOqA?si=yd_cLhplZvd254NR"),
+			new Image(1,"https://youtube.com/shorts/905xR1J137M?si=JgZNoV6QO_uJDJay"),new Image(1,"https://youtube.com/shorts/D3ZI2Z6DFZQ?si=fC-T5lV_G4U60YNZ")
+			);
 	
+	@GetMapping("/videos")
+	public List<Image> videos(){
+		return vis;
+		
+		
+	}
 	
 	
 	
